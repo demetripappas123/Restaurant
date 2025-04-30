@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    position: relative;
+}
+
+#backgroundImage{
+    height: 100vh;
+    width: 100vw;
+}
+
+nav{
+    background-color:bisque;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 12px;
+    padding: 12px;
+    width: 100%;
+}
+
+#container{
+    position: absolute;
+    top: 50%;left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+
+    color: white;
+}
+
+header{
+    width: 100vw;
+}
+
+button{
+    height: 1rem;
+    width: 5rem;
+}
+
